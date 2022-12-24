@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script  type="module"  src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="fontawesomeicons/css/all.css">
+</head>
+
+
+<body>
+
+    <div class="titleapp" >
+        <h2 class="titleapp__title">Stone Sales v0.2</h2>
+    </div>
+
+    <!---->
+    <div class="flexapp">
+
+        <div class="generalcontainer">
+            
+            <div class="formcontainer">
+    
+                <h2 class="formcontainer__titleform">Select available products</h2>
+    
+                <form id="form" class="formcontainer__form">
+        
+                    <div class="formcontainer__inputscontainer">
+                        <label class="formcontainer__label" for="">Product</label>
+                        <select  id="optionsContainer" class="formcontainer__selection" required>
+                                <option class="formcontainer__options"  value="Select" selected disabled hidden > Select </option>
+                                <option class="formcontainer__options" value="Tv">Tv</option>
+                                <option class="formcontainer__options" value="Phone">Phone</option>
+                                <option class="formcontainer__options" value="Earphones">Earphones</option>
+                                <option class="formcontainer__options" value="Headphones">Headphones</option>
+                                <option class="formcontainer__options" value="Washer">Washer</option>
+                                <option class="formcontainer__options" value="Printer">Printer</option>
+                                <option class="formcontainer__options" value="Ps3">Ps3</option>
+                                <option class="formcontainer__options" value="Ps4">Ps4</option>
+                                <option class="formcontainer__options" value="Ps5">Ps5</option>
+                                <option class="formcontainer__options" value="Ipad">Ipad </option>
+                                <option class="formcontainer__options" value="Fridge">Fridge</option>
+                                <option class="formcontainer__options" value="Ledlights">Ledlights</option>
+                                <option class="formcontainer__options" value="Monitor">Monitor</option>
+                                <option class="formcontainer__options" value="CPU">CPU</option>
+                                <option class="formcontainer__options" value="GPU">GPU</option>
+                                <option class="formcontainer__options" value="Graphigcard">Graphigcard</option>
+                                <option class="formcontainer__options" value="Ram">Ram</option>               
+                        </select>
+                    </div>
+        
+                    <div class="formcontainer__inputscontainer">
+                        <label class="formcontainer__label" for="">Price</label>
+                        <h2 id="valuePriceContainer" class="formcontainer__price">0.00</h2>
+                    </div>
+        
+                    <div id="buttonToListContainer" class="formcontainer__buttoncontainer">
+                        <button id="buttontolist" class="formcontainer__buttonelement">Add to List</button>
+                    </div>
+                </form>
+            </div>
+        
+     <!---->    
+     
+    
+    
+     <!---->
+            
+            <div id="productListPanel" class="productlistcontainer" title="Double click to delete one element">
+                <h2 class="productlistcontainer__titlelist">Products List</h2>
+                <div id="listContainer" class="productlistcontainer__listcontainer"></div>
+                <div id="buttonAddToCarContainer" class="productlistcontainer__buttonaddtocarcontainer">
+                    <button id="buttonAddToCar" class="productlistcontainer__buttonaddtocar"> Add <i class="fas fa-check"></i> </button>              
+                </div>
+            </div>
+    <!---->
+    
+        </div>
+    
+    
+    
+    
+    <!---->
+    
+    
+    
+        <div id="ticketContainerPanel" class="ticketscontainer">
+            <div class="ticketscontainer__titlecontainer">
+                <h2 class="ticketscontainer__title">Pending Sells</h2>
+            </div>
+            <div id="ticketsContainer" class="ticketscontainer__tickectscontainer"></div>
+        </div>
+    </div>
+
+
+
+<!---->
+
+    
+
+    
+</body>
+</html>
